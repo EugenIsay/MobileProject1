@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background">
+    <LinearLayout
+        android:id="@+id/StartImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="359dp"
+        android:layout_marginLeft="38dp"
+        android:orientation="vertical">
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_video_calling_nocolor"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WSR Connect"
+            android:textSize="36dp"
+            android:textColor="#1565C0"
+            android:width="192dp"
+            />
+    </LinearLayout>
+</RelativeLayout>
